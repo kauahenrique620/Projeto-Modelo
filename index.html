@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/bcf462c704.js" crossorigin="anonymous"></script>
+    <title>Piraí do Sul - A Capital Nacional da Oração</title>
+
+<script>
+    function menuAction() {
+        var x = document.getElementById("menu-master");
+        if (x.className === "top-nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "top-nav";
+        }
+    }
+    function hideMenu() {
+        document.getElementById("menu-master").className = "top-nav";
+    }
+</script>
+
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <nav class="top-nav" id="menu-master">
+                <ul>
+                    <li><a href="#cidade" onclick="hideMenu()">A Cidade</a></li>
+                    <li><a href="#atracoes" onclick="hideMenu()">Atrações</a></li>
+                    <li><a href="#historia" onclick="hideMenu()">A História</a></li>
+                    <li><a href="#Cultura" onclick="hideMenu()">Cultura</a></li>
+                    <li><a href="#eventos" onclick="hideMenu()">Eventos</a></li>
+                    <li><a href="#sobre" onclick="hideMenu()">Sobre</a></li>
+                    <li></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="menuAction()"><i class="fa fa-bars"></i></a>
+            </nav>
+        </div>
+        <div class="container-banner">
+            <div class="text-banner">
+                <span class="text-banner-small">Conheça</span><br>
+                Piraí do Sul
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="cidade">
+            <h1 class="default">Bem-vindo a Piraí do Sul</h1>           
+            <p>
+                Situada na região dos Campos Gerais do Paraná, entre cenários naturais encantadores e marcada por uma rica herança cultural, Piraí do Sul, reconhecida por sua fé, suas tradições rurais e a receptividade de seu povo, reserva diversas experiências para quem a visita.
+            </p>
+        </section>
+
+        <section id="atracoes">
+            <h1 class="default">Atrações</h1>
+            <p>Piraí do Sul é uma cidade cheia de encantos e tradições. Descubra alguns dos principais locais que merecem a sua visita.</p>
+            <div class="atracoes-conteudo">
+                <div>
+                    <img src="img/atracoes.png" alt="image-Nossa-Senhora-Brotas" title="Nossa Senhora das Brotas">
+                </div>
+                <div>
+                    <ul>
+                        <li>Museu Municipal de Piraí do Sul</li>
+                        <li>Cachoeira da Paulina</li>
+                        <li>Igreja do Senhor Menino Deus</li>
+                        <li>Cachoeira Do Esterco</li>
+                        <li>Lagoa Verde</li>
+                        <li>Floresta Nacional De Piraí Do Sul</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia">
+            <h1 class="default">A História</h1>
+            <div class="historia-conteudo">
+                <div>
+                    <figure>
+                        <img src="img/senhorabrotas.webp" alt="image-Nossa-Senhora-Brotas" title="Nossa Senhora das Brotas">
+                        <figcaption>Nossa Senhora das Brotas</figcaption>
+                    </figure>
+                    <p>
+                        Piraí do Sul teve sua origem no século XIX, impulsionada por tropeiros que cruzavam a região rumo aos campos do sul do Brasil. Sua fundação está ligada ao desenvolvimento das rotas comerciais e à fé do povo local, especialmente pela devoção a Nossa Senhora das Brotas, que atraiu moradores e peregrinos. Localizada estrategicamente nos Campos Gerais do Paraná, Piraí do Sul se desenvolveu entre os caminhos que ligavam os antigos povoados de Castro e Jaguariaíva, sendo ponto de passagem e repouso para viajantes e comerciantes da época.
+                    </p>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/vilapirai.jpg" alt="image-vila-pirai" title="Vila de Piraí">
+                        <figcaption>Vila de Piraí</figcaption>
+                    </figure>
+                    <p>
+                        Em 1881, Piraí do Sul foi elevada à categoria de vila e, anos mais tarde, tornou-se oficialmente município. Sua história está fortemente ligada à fé e à tradição dos primeiros moradores, especialmente à devoção à Nossa Senhora das Brotas, padroeira da cidade. O nome “Piraí” tem origem tupi e significa “peixe do rio”, refletindo a ligação com a natureza local. Com o tempo, o município se desenvolveu e passou a ser conhecido como um importante polo agrícola e religioso dos Campos Gerais do Paraná.    
+                    </p>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/padre.jpg" alt="image-padre" title="Lucas Rodrigues França">
+                        <figcaption>Lucas Rodrigues França</figcaption>
+                    </figure>
+                    <p>
+                        Piraí do Sul teve sua origem ligada ao padre Lucas Rodrigues França, considerado o principal fundador do município. No início do século XVII, ele adquiriu uma gleba de terras no vale do rio Piraí e deu início ao povoamento da região, que mais tarde passaria a ser conhecida como Bairro da Lança. Esse núcleo inicial se formou a partir da construção da capela dedicada ao Senhor Menino Deus, em meados do século XIX, tornando-se ponto de referência religiosa e social para os moradores da área. Em 12 de abril de 1872, o local foi oficialmente elevado à categoria de freguesia, passando a se chamar “Pirahy”, conforme determinado pela Lei Provincial nº 329. A emancipação política veio em 5 de março de 1881, quando a vila foi criada por meio da Lei Provincial nº 631, sendo sua instalação formalizada em 24 de julho de 1882 com a posse da primeira Câmara Municipal. Inicialmente nomeado Pirahy, o município passou a se chamar Piraí-Mirim em 1943, e, finalmente, recebeu o nome atual de Piraí do Sul em 11 de outubro de 1947, conforme estabelecido pela Lei Estadual nº 2. A atuação pioneira do padre Lucas foi fundamental para a formação e o desenvolvimento do município, cuja identidade ainda hoje está profundamente ligada à fé, à tradição e à história de seus primeiros habitantes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Cultura">
+            <div class="cultura-conteudo">
+                <h1 class="default">Cultura</h1>
+                <p><strong>Piraí do Sul se destaca por sua cultura singular, profundamente enraizada nas tradições tropeiras e religiosas da região dos Campos Gerais.</strong></p>
+                <p><i class="fa fa-check"></i>
+                    Virado Piraiense: Prato oficial da cidade, feito com feijão branco, arroz, linguiça, ovos e farinha de milho.
+                </p>
+                <p><i class="fa fa-check"></i>
+                    Cabriúva: Bebida quente típica feita com vinho seco, cravo, canela, açúcar, água, gemada e glacê — tradicionalmente servida nas festas.
+                <p><i class="fa fa-check"></i>
+                    Espaços culturais: Biblioteca Cidadã com telecentro, museus, centros de documentação, ginásios esportivos e ginásios poliesportivos
+                </p>
+                <p><i class="fa fa-check"></i>
+                    Grupos artísticos e oficinas: Bandas, corais, grupos de teatro, capoeira, dança (de rua, gaúcha, do ventre) e instrumentos (violão, guitarra) — além de artesanato em bordado e madeira
+                </p>
+            </div>
+        </section>
+
+        <section id="eventos">
+            <h1 class="default">Eventos</h1>
+            <div class="eventos-conteudo">
+                <div>
+                    <figure>
+                        <img src="img/fest.jpeg" alt="image-rodeio" title="Piraí Rodeio Fest">
+                        <figcaption>
+                            <span class="evento-titulo">Piraí Rodeio Fest</span>
+                             O Piraí Rodeo Fest é um evento importante para a cidade, atraindo grande público e movimentando a economia local, além de promover a cultura do rodeio e oferecer entretenimento para a comunidade. </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/jepsul.png" alt="imagem-jepsul" title="Jepsul">
+                        <figcaption>
+                            <span class="evento-titulo">Jepsul</span>
+                            O Jepsul, ou Jogos Escolares de Piraí do Sul, é um evento esportivo anual que acontece em Piraí do Sul, no Paraná.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/festabrotas.webp" alt="image-festa-brotas" title="Festa de Nossa Senhora das Brotas">
+                        <figcaption>
+                            <span class="evento-titulo">Festa de Nossa Senhora das Brotas</span>
+                            A Festa de Nossa Senhora das Brotas é uma celebração religiosa tradicional em Piraí do Sul, Paraná, realizada anualmente no dia 27 de dezembro, dia da padroeira da cidade.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <img src="img/tropeiro.webp" alt="image-tropeiro" title="Encontro Tropeiro">
+                        <figcaption>
+                            <span class="evento-titulo">Encontro Tropeiro</span>
+                             Encontro Tropeiro é um evento que celebra a cultura tropeira e ocorre em Piraí do Sul, no dia 30 de junho, em homenagem ao Dia do Tropeiro. O evento é organizado pelo Grupo Os Tropeiros Nativos e visa fortalecer a tradição e religiosidade ligadas à cultura tropeira. 
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="sobre-conteudo">
+                <h1 class="titulo-sobre">Sobre</h1>
+                <p>Conteúdo desenvolvido por Kauã Henrique dos Santos da Cunha</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        2025 &copy; - Todos os direitos reservados
+    </footer>
+
+</body>
+
+</html>
